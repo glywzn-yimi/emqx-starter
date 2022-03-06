@@ -1,6 +1,6 @@
 package com.glywzn.emqx.starter.utils;
 
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.integration.mqtt.outbound.MqttPahoMessageHandler;
 import org.springframework.integration.mqtt.support.MqttHeaders;
 import org.springframework.integration.support.MessageBuilder;
@@ -19,7 +19,8 @@ import java.util.Map;
  * @author xingyl
  * @date 2020-04-01 10:16:35
  */
-@Log4j2
+// @Log4j2
+@Slf4j
 public class MqttUtils {
 
 	/**

@@ -1,7 +1,7 @@
 package com.glywzn.emqx.starter.config;
 
 import com.glywzn.emqx.starter.utils.MqttUtils;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +33,8 @@ import java.io.UnsupportedEncodingException;
  * @author xingyl
  * @date 2020-03-27 17:08:36
  */
-@Log4j2
+// @Log4j2
+@Slf4j
 @Configuration
 @EnableConfigurationProperties(MqttProperties.class)
 public class MqttAutoConfiguration implements ApplicationContextAware, BeanPostProcessor {
