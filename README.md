@@ -1,2 +1,1 @@
-# emqx-starter
-emqx-starter
+- 参考 [https://github.com/aLiang-xyl/integration-mqtt](https://github.com/aLiang-xyl/integration-mqtt)
